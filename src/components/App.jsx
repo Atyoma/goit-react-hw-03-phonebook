@@ -1,9 +1,9 @@
 import {Component} from 'react';
-import { ContactForm } from './ContactForm';
-import { Filter } from './Filter';
-import { ContactList } from './ContactList';
-import { FormBox, Phonebook} from './ContactForm.styled';
-import { ContactListBox } from './ContactList.styled';
+import { ContactForm } from './ContactForm/ContactForm';
+import { Filter } from './Filter/Filter';
+import { ContactList } from './ContactList/ContactList';
+import { FormBox, Phonebook} from './ContactForm/ContactForm.styled';
+import { ContactListBox } from './ContactList/ContactList.styled';
 import { nanoid } from 'nanoid';
 import PropTypes from 'prop-types';
 
